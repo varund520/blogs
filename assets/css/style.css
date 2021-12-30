@@ -2,6 +2,15 @@
     margin: 0px;
 }
 
+.uni-padding{
+    padding: 0px 15% !important;
+}
+
+body{
+    background-color: #f0fdff;
+    font-family: 'Roboto', Arial, sans-serif;
+}
+
 /* top bar */
 
 .top-bar{
@@ -65,3 +74,50 @@
 /* right top bar end here */
 
 /* top bar end here */
+
+/* menu Bar */
+
+.menubar{
+    background-color: #ffffff;
+    box-shadow: 0 2px 7px 0 rgb(0 0 0 / 10%);
+}
+
+.menubar > .logo{
+    width: 19%;
+    display: inline-block;
+    font-size: 20px;
+    font-weight: 900;
+    padding: 20px 0px;
+}
+.menubar > .logo > span {
+    color: #0049CE;
+}
+
+/* menus  */
+.menubar >.menus{
+    width: 79%;
+    display: inline-block;
+    text-align: right;
+    font-weight: 700;
+    padding: 20px 0px;
+}
+.menus > a{
+    text-decoration: none;
+    color: black;
+    margin: 0px 14px;    
+}
+.menus > a:hover{
+    color: #0049CE;
+    margin: 0px 14px;    
+}
+.menus > a > .la-search{
+    font-size: 25px;
+    position: relative;
+    top: 5px;
+}
+
+/* menus end here */
+
+
+
+/* menu bar end here */
