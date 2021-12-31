@@ -194,16 +194,16 @@ body{
     position: relative;
 }
 
-.list-item > .content > .h3 {
+.list-item > .content > h3 {
     font-size: 15px;
     font-weight: 700;
     color: black;
 }
 
 .list-item > .content > .date {
-    font-size: 15px;
-    font-weight: 700;
-    color: black;
+    font-size: 12px;
+    font-weight: 400;
+    color: #76767a;
 }
 
 
