@@ -17,7 +17,6 @@ body{
 /* top bar */
 
 .top-bar{
-    border: 2px solid black;
     background-color: #202020;    
 }
 
@@ -125,25 +124,92 @@ body{
 
 /* blog section */
 
-.divide-3{
+.divide-3 {
     background-color: white;
+    margin-top: 25px;
     box-shadow: 0 2px 7px 0 rgb(0 0 0 / 10%);
-    display: inline-block;
-    text-align: center;
-    margin: 10px 0px;
-    padding: 25px;
+    display: flex;
+    padding: 20px;
+    height: 320px;
+    justify-content:space-evenly;
 }
-.divide-3 > .big-blog-listing{
-    border: 2px solid black;
-    width: 30%;
-    height: 100%;
-    display: inline-block;
-    background-image: url('https://1.bp.blogspot.com/-lNDLOkYVctM/XyMrR9hlGrI/AAAAAAAACb8/kfHY383L6UMezRamt-tByetKTlxgT05vQCLcBGAsYHQ/w367-h352-p-k-no-nu/ify12.jpg');
+
+.divide-3 > .big-blog-listing {
+    background-image: url("https://1.bp.blogspot.com/-lNDLOkYVctM/XyMrR9hlGrI/AAAAAAAACb8/kfHY383L6UMezRamt-tByetKTlxgT05vQCLcBGAsYHQ/w367-h352-p-k-no-nu/ify12.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    position: relative;
+    padding: 10px;
+    width: 33%;
+    margin: 0px 10px;
 }
-.divide-3 > .mid-blog-listing{
-    width: 30%;
+
+.big-blog-listing > .big-blog-img-content {
+    position: absolute;
+    bottom: 0px;
+    left: 0;
+    padding: 10px;
+    color: white;
+    text-shadow: 0 1px 2px rgb(0 0 0 / 10%);
+    background: linear-gradient(to bottom,rgba(0,0,0,0) 10%,rgba(0,0,0,1.5));
+}
+
+.divide-3 > a:hover{
+    opacity: 0.8;
+    transition: 0.5ms;
+}
+
+.big-blog-img-content> h3{
+    font-size: 27px;
+    font-weight: 700;
+}
+
+.big-blog-img-content > .title-date{
+    color: white;
+    text-shadow: 0 1px 2px rgb(0 0 0 / 10%);
+    font-size: 12px;
+    font-weight: 600;
+    margin: 5px 0px;
+}
+
+.title-date > span {
+    color: #c5c5c5;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.divide-3 > .mid-blog-listing {
+    width: 33%;
+}
+
+.list-item > img {
+    width: 35%;
     display: inline-block;
 }
+
+.list-item > .content {
+    width: 60%;
+    display: inline-block;
+    position: relative;
+}
+
+.list-item > .content > .h3 {
+    font-size: 15px;
+    font-weight: 700;
+    color: black;
+}
+
+.list-item > .content > .date {
+    font-size: 15px;
+    font-weight: 700;
+    color: black;
+}
+
+
+
+
+
 
 
 /* blog section end here */
